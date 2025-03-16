@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Liton",
+        "role": "Batsman",
+        "cover": "https://i.ibb.co/b57RRCqV/liton.jpg",
+        "price": "1200000",
+        "country": "India",
+        "playing_hand": "Right"
+    },
+    {
+        "name": "Steve Smith",
+        "role": "Batsman",
+        "cover": "https://i.ibb.co/cXMvyrM7/smith.jpg",
+        "price": "1000000",
+        "country": "Australia",
+        "playing_hand": "Right"
+    },
+    {
+        "name": "Kane Williamson",
+        "role": "Batsman",
+        "cover": "https://i.ibb.co/8LYf9xJ7/willam.jpg",
+        "price": "900000",
+        "country": "New Zealand",
+        "playing_hand": "Right"
+    },
+    {
+        "name": "Babar Azam",
+        "role": "Batsman",
+        "cover": "https://i.ibb.co/WrjVwg0/babar-azam.jpg",
+        "price": "950000",
+        "country": "Pakistan",
+        "playing_hand": "Right"
+    },
+    {
+        "name": "Ben Stokes",
+        "role": "All-rounder",
+        "cover": "https://i.ibb.co/8DBGThL5/Ben-stroke.jpg",
+        "price": "1100000",
+        "country": "England",
+        "playing_hand": "Left"
+    },
+    {
+        "name": "Shakib Al Hasan",
+        "role": "All-rounder",
+        "cover": "https://i.ibb.co/RktjV99b/tamim.jpg",
+        "price": "800000",
+        "country": "Bangladesh",
+        "playing_hand": "Left"
+    },
+    {
+        "name": "Rashid Khan",
+        "role": "Bowler",
+        "cover": "https://i.ibb.co/RTmnq24G/Rashed-khan.jpg",
+        "price": "850000",
+        "country": "Afghanistan",
+        "playing_hand": "Right"
+    },
+    {
+        "name": "Jasprit Bumrah",
+        "role": "Bowler",
+        "cover": "https://i.ibb.co/tTwBxRWV/Bumra.jpg",
+        "price": "900000",
+        "country": "India",
+        "playing_hand": "Right"
+    },
+    {
+        "name": "Trent Boult",
+        "role": "Bowler",
+        "cover": "https://i.ibb.co/DD81TB1C/new.jpg",
+        "price": "750000",
+        "country": "New Zealand",
+        "playing_hand": "Left"
+    },
+    {
+        "name": "David Warner",
+        "role": "Batsman",
+        "cover": "https://i.ibb.co/XZRkS6Mp/David.jpg",
+        "price": "950000",
+        "country": "Australia",
+        "playing_hand": "Left"
+    },
+    {
+        "name": "Jos Buttler",
+        "role": "Wicketkeeper-Batsman",
+        "cover": "https://i.ibb.co/rR5M0N4Y/butlar.jpg",
+        "price": "1000000",
+        "country": "England",
+        "playing_hand": "Right"
+    }
+]
