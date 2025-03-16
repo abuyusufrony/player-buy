@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Player from '../Player/Player';
 
-const Players = () => {
+const Players = ({ buyplayer }) => {
 
     const [firstplayer, setplayer] = useState([])
     useEffect(() => {
@@ -16,7 +16,8 @@ const Players = () => {
             <div>
                 <div className="card-conatiner grid grid-cols-3 w-11/12 mx-auto rounded-lg bg-gray-100 pb-44 ">
                     {
-                        firstplayer.map(fp => <Player plr={fp}></Player>)
+                        firstplayer.map(fp => <Player
+                            buyplayer={buyplayer} plr={fp}></Player>)
                     }
                 </div>
 

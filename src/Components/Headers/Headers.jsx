@@ -2,7 +2,8 @@ import React from 'react';
 import head from '../../assets/banner-main.png'
 import banner from '../../assets/bg-shadow.png'
 
-const Headers = () => {
+const Headers = ({ addCredit, credit }) => {
+    console.log(addCredit)
     return (
         <div className='mt-4 w-11/12 mx-auto'>
             <div><h2>every second</h2></div>
@@ -23,8 +24,8 @@ const Headers = () => {
                         <p className="mb-8 text-gray-300">
                             Beyond Boundaries Beyond Limits
                         </p>
-                        <button className=" cursor-pointer bg-yellow-400  h-12 w-38 font-bold text-black rounded-2xl border-2
-                         ">Claim Free Credit</button>
+                        <button onClick={() => { addCredit() }} className=" cursor-pointer bg-yellow-400  h-12 w-38 font-bold text-black rounded-2xl border-2
+                         ">Claim Free Credit {credit} </button>
                     </div>
                 </div>
             </div>

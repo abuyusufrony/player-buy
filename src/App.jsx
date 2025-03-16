@@ -9,17 +9,35 @@ import Players from './Components/Players/Players'
 import Footer from './Components/Footer/Footer'
 
 function App() {
+  const [credit, setCredit] = useState(0)
+  const [player, Setplayer] = useState(0)
+  const addCredit = () => {
+    setCredit(credit + 1000000);
+
+    const see = credit.length;
+    console.log(see)
+  }
+  const buyplayer = (buy) => {
+    if (credit > 50000) {
+      const newBuyplayer = credit - buy;
+      setCredit(newBuyplayer)
+    }
+    else {
+      alert('add money first')
+    }
+  }
 
 
   return (
     <>
 
       <h1>Vite + React</h1>
+      <button onClick={addCredit}>clik {credit.length}</button>
 
-      <Heading></Heading>
-      <Headers></Headers>
+      <Heading credit={credit}></Heading>
+      <Headers addCredit={addCredit} ></Headers>
 
-      <Players></Players>
+      <Players buyplayer={buyplayer} ></Players>
       <Footer></Footer>
 
 
