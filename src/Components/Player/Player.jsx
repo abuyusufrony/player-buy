@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Player = ({ plr, buyplayer }) => {
+const Player = ({ plr, buyplayer, addplayer }) => {
     const { name, cover, country, role, playing_hand, price } = plr
     return (
 
@@ -25,8 +25,9 @@ const Player = ({ plr, buyplayer }) => {
                         </div>
                         <div className="flex justify-between">
                             <h3> price:{price}</h3>
-                            <button onClick={() => buyplayer(price)} className=" cursor-pointer">Choice </button>
+                            <button onClick={() => { buyplayer(price, name) }} className=" cursor-pointer">Choice </button>
                         </div>
+                        <button onClick={() => { addplayer() }} className='bg-red-500'> add Player</button>
                     </div>
                 </div>
             </div>

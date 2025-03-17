@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Player from '../Player/Player';
 
-const Players = ({ buyplayer, player }) => {
+const Players = ({ buyplayer, player, addplayer }) => {
 
     const [firstplayer, setplayer] = useState([])
     useEffect(() => {
@@ -28,6 +28,7 @@ const Players = ({ buyplayer, player }) => {
                     {
                         firstplayer.map(fp => <Player
                             buyplayer={buyplayer}
+                            addplayer={addplayer}
                             plr={fp}></Player>)
                     }
                 </div>
@@ -35,11 +36,7 @@ const Players = ({ buyplayer, player }) => {
 
             </div>
 
-            <div className="two-box relative  ">
 
-                {/* <div className="two box one box h-32 bg-amber-600 flex justify-center text-center items-center w-96 absolute -mt-20  ml-12 "><h2>There are way without win</h2></div> */}
-
-            </div>
         </div >
     );
 };
