@@ -21,6 +21,8 @@ function App() {
     if (credit > 50000) {
       const newBuyplayer = credit - buy;
       setCredit(newBuyplayer)
+      const addplayer = [...player, buy]
+      Setplayer(addplayer)
     }
     else {
       alert('add money first')
@@ -37,7 +39,8 @@ function App() {
       <Heading credit={credit}></Heading>
       <Headers addCredit={addCredit} ></Headers>
 
-      <Players buyplayer={buyplayer} ></Players>
+      <Players buyplayer={buyplayer}
+        player={player} ></Players>
       <Footer></Footer>
 
 
